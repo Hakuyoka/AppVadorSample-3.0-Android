@@ -80,7 +80,7 @@ public class MainActivity extends Activity {
 
             @Override
             public void onFailedToPlayAd(ErrorCode errorCode) {
-                Log.d("DEBUG", "onFailedToPlayAd");
+                Log.d("DEBUG", "onFailedToPlayAd: " + errorCode.toString());
             }
 
             @Override
