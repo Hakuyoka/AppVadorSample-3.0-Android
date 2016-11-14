@@ -220,6 +220,15 @@ proguardを使用してビルドする場合、proguard-rule.pro等の設定フ�
     -keep class com.google.android.gms.ads.identifier.AdvertisingIdClient {*;}
     -keep class com.google.android.gms.ads.identifier.AdvertisingIdClient$Info {*;}
 
+
+広告の閉じるボタンの表示
+--------
+
+![スキップコントール](https://s3-ap-northeast-1.amazonaws.com/cloudfront-creative/uploads/images/skipcontrol.png)
+広告枠編集画面の「動画スキップコントロール」から閉じるボタンを動画再生開始から何秒後に表示するか設定できます。
+初期設定は「設定しない」になっていますので任意の秒数で設定してください。
+
+
 リリースノート
 ---------------
 
